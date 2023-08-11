@@ -1,0 +1,41 @@
+@font-face {
+  font-family:  'cartoon';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../assets/fonts/KGCorneroftheSky.ttf") format('truetype');
+}
+
+body {
+  background-color: #F2BED1;
+  font-family: cartoon;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding-left: 100px;
+}
+
+.title, .text {
+  align-items: center;
+  padding-left: 50px;
+  height: 50%;
+}
+
+input[type=submit] {
+  background-color: #F9F5F6;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  background-color: #F9F5F6;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
